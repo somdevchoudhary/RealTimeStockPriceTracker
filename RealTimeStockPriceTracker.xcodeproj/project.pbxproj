@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		97F9461F30814357004787AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97F9460930814356004787AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97F9461030814356004787AE;
+			remoteInfo = RealTimeStockPriceTracker;
+		};
+		97F9462930814357004787AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97F9460930814356004787AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97F9461030814356004787AE;
+			remoteInfo = RealTimeStockPriceTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97F9461130814356004787AE /* RealTimeStockPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeStockPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F9461E30814357004787AE /* RealTimeStockPriceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeStockPriceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F9462830814357004787AE /* RealTimeStockPriceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeStockPriceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		97F9461330814356004787AE /* RealTimeStockPriceTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RealTimeStockPriceTracker;
+			sourceTree = "<group>";
+		};
+		97F9462130814357004787AE /* RealTimeStockPriceTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RealTimeStockPriceTrackerTests;
+			sourceTree = "<group>";
+		};
+		97F9462B30814357004787AE /* RealTimeStockPriceTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RealTimeStockPriceTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97F9460E30814356004787AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		97F9461B30814357004787AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		97F9462530814357004787AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97F9460830814356004787AE = {
+			isa = PBXGroup;
+			children = (
+				97F9461330814356004787AE /* RealTimeStockPriceTracker */,
+				97F9462130814357004787AE /* RealTimeStockPriceTrackerTests */,
+				97F9462B30814357004787AE /* RealTimeStockPriceTrackerUITests */,
+				97F9461230814356004787AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97F9461230814356004787AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97F9461130814356004787AE /* RealTimeStockPriceTracker.app */,
+				97F9461E30814357004787AE /* RealTimeStockPriceTrackerTests.xctest */,
+				97F9462830814357004787AE /* RealTimeStockPriceTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97F9461030814356004787AE /* RealTimeStockPriceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F9463030814357004787AE /* Build configuration list for PBXNativeTarget "RealTimeStockPriceTracker" */;
+			buildPhases = (
+				97F9460D30814356004787AE /* Sources */,
+				97F9460E30814356004787AE /* Frameworks */,
+				97F9460F30814356004787AE /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				97F9461330814356004787AE /* RealTimeStockPriceTracker */,
+			);
+			name = RealTimeStockPriceTracker;
+			productName = RealTimeStockPriceTracker;
+			productReference = 97F9461130814356004787AE /* RealTimeStockPriceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97F9461D30814357004787AE /* RealTimeStockPriceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F9463330814357004787AE /* Build configuration list for PBXNativeTarget "RealTimeStockPriceTrackerTests" */;
+			buildPhases = (
+				97F9461A30814357004787AE /* Sources */,
+				97F9461B30814357004787AE /* Frameworks */,
+				97F9461C30814357004787AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97F9462030814357004787AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				97F9462130814357004787AE /* RealTimeStockPriceTrackerTests */,
+			);
+			name = RealTimeStockPriceTrackerTests;
+			productName = RealTimeStockPriceTrackerTests;
+			productReference = 97F9461E30814357004787AE /* RealTimeStockPriceTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97F9462730814357004787AE /* RealTimeStockPriceTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F9463630814357004787AE /* Build configuration list for PBXNativeTarget "RealTimeStockPriceTrackerUITests" */;
+			buildPhases = (
+				97F9462430814357004787AE /* Sources */,
+				97F9462530814357004787AE /* Frameworks */,
+				97F9462630814357004787AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97F9462A30814357004787AE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				97F9462B30814357004787AE /* RealTimeStockPriceTrackerUITests */,
+			);
+			name = RealTimeStockPriceTrackerUITests;
+			productName = RealTimeStockPriceTrackerUITests;
+			productReference = 97F9462830814357004787AE /* RealTimeStockPriceTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97F9460930814356004787AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					97F9461030814356004787AE = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					97F9461D30814357004787AE = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 97F9461030814356004787AE;
+					};
+					97F9462730814357004787AE = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 97F9461030814356004787AE;
+					};
+				};
+			};
+			buildConfigurationList = 97F9460C30814356004787AE /* Build configuration list for PBXProject "RealTimeStockPriceTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97F9460830814356004787AE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 97F9461230814356004787AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97F9461030814356004787AE /* RealTimeStockPriceTracker */,
+				97F9461D30814357004787AE /* RealTimeStockPriceTrackerTests */,
+				97F9462730814357004787AE /* RealTimeStockPriceTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97F9460F30814356004787AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		97F9461C30814357004787AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		97F9462630814357004787AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97F9460D30814356004787AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		97F9461A30814357004787AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		97F9462430814357004787AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97F9462030814357004787AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97F9461030814356004787AE /* RealTimeStockPriceTracker */;
+			targetProxy = 97F9461F30814357004787AE /* PBXContainerItemProxy */;
+		};
+		97F9462A30814357004787AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97F9461030814356004787AE /* RealTimeStockPriceTracker */;
+			targetProxy = 97F9462930814357004787AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97F9462E30814357004787AE /* Debug configuration for PBXProject "RealTimeStockPriceTracker" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZUNKAWDXET;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97F9462F30814357004787AE /* Release configuration for PBXProject "RealTimeStockPriceTracker" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZUNKAWDXET;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97F9463130814357004787AE /* Debug configuration for PBXNativeTarget "RealTimeStockPriceTracker" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNKAWDXET;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.realtimestockpricetracker.com.RealTimeStockPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97F9463230814357004787AE /* Release configuration for PBXNativeTarget "RealTimeStockPriceTracker" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNKAWDXET;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.realtimestockpricetracker.com.RealTimeStockPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97F9463430814357004787AE /* Debug configuration for PBXNativeTarget "RealTimeStockPriceTrackerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNKAWDXET;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.realtimestockpricetracker.com.RealTimeStockPriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeStockPriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealTimeStockPriceTracker";
+			};
+			name = Debug;
+		};
+		97F9463530814357004787AE /* Release configuration for PBXNativeTarget "RealTimeStockPriceTrackerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNKAWDXET;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.realtimestockpricetracker.com.RealTimeStockPriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeStockPriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealTimeStockPriceTracker";
+			};
+			name = Release;
+		};
+		97F9463730814357004787AE /* Debug configuration for PBXNativeTarget "RealTimeStockPriceTrackerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNKAWDXET;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.realtimestockpricetracker.com.RealTimeStockPriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealTimeStockPriceTracker;
+			};
+			name = Debug;
+		};
+		97F9463830814357004787AE /* Release configuration for PBXNativeTarget "RealTimeStockPriceTrackerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNKAWDXET;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.realtimestockpricetracker.com.RealTimeStockPriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealTimeStockPriceTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97F9460C30814356004787AE /* Build configuration list for PBXProject "RealTimeStockPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F9462E30814357004787AE /* Debug configuration for PBXProject "RealTimeStockPriceTracker" */,
+				97F9462F30814357004787AE /* Release configuration for PBXProject "RealTimeStockPriceTracker" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		97F9463030814357004787AE /* Build configuration list for PBXNativeTarget "RealTimeStockPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F9463130814357004787AE /* Debug configuration for PBXNativeTarget "RealTimeStockPriceTracker" */,
+				97F9463230814357004787AE /* Release configuration for PBXNativeTarget "RealTimeStockPriceTracker" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		97F9463330814357004787AE /* Build configuration list for PBXNativeTarget "RealTimeStockPriceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F9463430814357004787AE /* Debug configuration for PBXNativeTarget "RealTimeStockPriceTrackerTests" */,
+				97F9463530814357004787AE /* Release configuration for PBXNativeTarget "RealTimeStockPriceTrackerTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		97F9463630814357004787AE /* Build configuration list for PBXNativeTarget "RealTimeStockPriceTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F9463730814357004787AE /* Debug configuration for PBXNativeTarget "RealTimeStockPriceTrackerUITests" */,
+				97F9463830814357004787AE /* Release configuration for PBXNativeTarget "RealTimeStockPriceTrackerUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97F9460930814356004787AE /* Project object */;
+	validationLevel = 1;
+}
