@@ -1,43 +1,51 @@
-//
-//  RealTimeStockPriceTrackerUITests.swift
-//  RealTimeStockPriceTrackerUITests
-//
-//  Created by Somdev Choudhary on 15/10/26.
-//
-
 import XCTest
 
+@MainActor
 final class RealTimeStockPriceTrackerUITests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
+    private func launch() -> XCUIApplication {
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    @MainActor
-    func testExample() throws {
-        // UI tests must launch the application that they test.
         let app = XCUIApplication()
+        app.launchArguments = ["--ui-testing"]
         app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // XCUIAutomation Documentation
-        // https://developer.apple.com/documentation/xcuiautomation
+        XCTAssertTrue(app.buttons["feedToggle"].waitForExistence(timeout: 5))
+        return app
     }
 
-    @MainActor
-    func testLaunchPerformance() throws {
-        // This measures how long it takes to launch your application.
-        measure(metrics: [XCTApplicationLaunchMetric()]) {
-            XCUIApplication().launch()
-        }
+    func testSortNavigationAndDetailRemainLive() {
+        let app = launch()
+        app.buttons["feedToggle"].tap()
+        XCTAssertTrue(app.staticTexts["Connected"].waitForExistence(timeout: 5))
+        let picker = app.segmentedControls["sortPicker"]
+        picker.buttons["Price Change"].tap()
+        XCTAssertTrue(picker.buttons["Price Change"].isSelected)
+        picker.buttons["Price"].tap()
+        XCTAssertTrue(picker.buttons["Price"].isSelected)
+        app.descendants(matching: .any)["stock-AAPL"].firstMatch.tap()
+        XCTAssertTrue(app.navigationBars["AAPL"].waitForExistence(timeout: 5))
+        let price = app.staticTexts["detailPrice"]
+        XCTAssertTrue(price.waitForExistence(timeout: 5))
+        let first = price.label
+        let changed = XCTNSPredicateExpectation(
+            predicate: NSPredicate(format: "label != %@ AND label != %@", first, "—"), object: price)
+        wait(for: [changed], timeout: 5)
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+        XCTAssertTrue(app.buttons["feedToggle"].waitForExistence(timeout: 5))
+        XCTAssertEqual(app.staticTexts["connectionStatus"].label, "Connected")
+    }
+
+    func testStoppedFeedKeepsDetailPriceStable() {
+        let app = launch()
+        let toggle = app.buttons["feedToggle"]
+        toggle.tap()
+        XCTAssertTrue(app.staticTexts["Connected"].waitForExistence(timeout: 5))
+        toggle.tap()
+        XCTAssertEqual(app.staticTexts["connectionStatus"].label, "Disconnected")
+        app.descendants(matching: .any)["stock-AAPL"].firstMatch.tap()
+        let price = app.staticTexts["detailPrice"]
+        XCTAssertTrue(price.waitForExistence(timeout: 5))
+        wait(for: [XCTNSPredicateExpectation(predicate: NSPredicate(format: "label != %@", "—"), object: price)], timeout: 5)
+        let changed = XCTNSPredicateExpectation(predicate: NSPredicate(format: "label != %@", price.label), object: price)
+        changed.isInverted = true
+        wait(for: [changed], timeout: 0.75)
     }
 }
